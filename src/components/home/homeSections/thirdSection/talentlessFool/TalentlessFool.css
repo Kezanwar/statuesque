@@ -1,0 +1,17 @@
+.talentlessFool {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.talentlessFool.one {
+    background-image: url(../../../../../images/talentless-fool.jpg);
+}
+
+.talentlessFool.two {
+    background-image: url(../../../../../images/talentless-fool1.jpg);
+}
+
+.talentlessFool.three {
+    background-image: url(../../../../../images/talentless-fool3.jpg);
+}

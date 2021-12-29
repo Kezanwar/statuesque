@@ -54,7 +54,7 @@ function UnsplashCarousel() {
             {carouselArray[carouselCount]}
 
             <CarouselControlBox>
-                <a rel='noreferrer' target={'_blank'} href={authorArray[carouselCount].unsplashURL}><CarouselTitleBox >Unsplash: {authorArray[carouselCount].name}</CarouselTitleBox></a>
+                <a rel='noreferrer' target={'_blank'} href={authorArray[carouselCount].unsplashURL}><CarouselTitleBox > {authorArray[carouselCount].name}</CarouselTitleBox></a>
                 <CarouselControlButtons>
                     <button className={carouselCount == 0 ? 'buttonFill' : ''} key={'unsplashCarouselBtn1'} onClick={carouselControlHandler} value={'0'}></button>
                     <button className={carouselCount == 1 ? 'buttonFill' : ''} key={'unsplashCarouselBtn2'} onClick={carouselControlHandler} value={'1'} ></button>

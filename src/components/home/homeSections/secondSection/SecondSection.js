@@ -1,5 +1,6 @@
 import React from 'react'
 import './SecondSection.css'
+import FadeSection from '../../../UI/FadeSection/FadeSection'
 import SecondSectionSoundcloud from './secondSectionSoundcloud/SecondSectionSoundcloud'
 import GarnerCarousel from './garner/GarnerCarousel'
 
@@ -7,7 +8,7 @@ import GarnerCarousel from './garner/GarnerCarousel'
 function SecondSection() {
 
     return (
-        <div className='SecondSection'>
+        <FadeSection classes={'SecondSection'} key={'SecondSection'}>
             <div className='soundcloud__placeholder' >
                 <SecondSectionSoundcloud />
             </div>
@@ -15,7 +16,7 @@ function SecondSection() {
             <div className='garner__placeholder' >
                 <GarnerCarousel />
             </div>
-        </div>
+        </FadeSection>
     )
 }
 
