@@ -1,0 +1,34 @@
+.ThirdSection {
+    height: 90vh;
+    width: 100vw;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.ThirdSection .first__placeholder {
+    width: 33%;
+    /* height: 100%; */
+    /* background-color: rgb(153, 185, 217); */
+    background-image: url(../../../../images/talentless-fool.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ThirdSection .second__placeholder {
+    width: 33%;
+    background-image: url(../../../../images/talentless-fool1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: saturate(1.2);
+}
+
+.ThirdSection .third__placeholder {
+    width: 33%;
+    background-image: url(../../../../images/talentless-fool3.jpg );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

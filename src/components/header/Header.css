@@ -1,0 +1,114 @@
+.Header {
+    padding: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    /* top: 0px;
+    /* transition: all 250ms ease-in-out; */
+    z-index: 1000;
+    /* background-color: var(--greyBG);
+    color: white; */
+    /* backdrop-filter: blur(10px); */
+}
+
+
+.Header::after {
+    position: absolute;
+    content: '';
+    width: calc(100% - 4rem);
+    height: 1px;
+    bottom: 0px;
+    background-color: var(--blackText);
+}
+
+.Header__logo-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.Header__link-box {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    position: relative;
+}
+
+
+.Header__link-box a {
+    font-size: 1.2rem;
+    border: solid 1px black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    display: inline;
+    position: relative;
+}
+
+.Header__link-box .link-arrow::after {
+    content: "";
+    background-image: url(../../images/right-arrow.svg);
+    background-size: 100% 100%;
+    display: inline;
+
+    /*size of your image*/
+    height: 15px;
+    width: 15px;
+
+    /*if you want to change the position*/
+    position: absolute;
+    top: 50%;
+    left: 130%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all 100ms ease;
+}
+
+.Header__link-box .link-arrow:hover::after {
+    left: 140%;
+    opacity: 1;
+}
+
+
+.Header__kez {
+    text-transform: lowercase;
+    /* letter-spacing: 2px; */
+    font-size: 1.2rem;
+    font-weight: 300;
+    width: 20%;
+    text-align: right;
+    /* line-height: 1.5; */
+}
+
+.Header__kez a {
+    all: unset;
+    cursor: pointer;
+    /* text-decoration: underline; */
+    transition: opacity 100ms ease;
+    border: solid 1px black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+}
+
+.Header__kez a:hover {
+    opacity: 0.7;
+}
+
+
+.header-dark {
+    background-color: var(--greyBG);
+    color: white;
+    /* padding: 2rem 3rem; */
+}
+
+
+.header-dark::after {
+    display: none;
+
+}
+
+.header-dark h1 {
+    color: white;
+
+}

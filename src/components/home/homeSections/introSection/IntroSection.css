@@ -1,0 +1,22 @@
+.IntroSection {
+    height: 75vh;
+    width: 100vw;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.placeholder__blog1 {
+    width: 67.5%;
+    /* background-color: var(--col6); */
+    /* border-radius: 3px; */
+    /* color: #fff */
+    filter: saturate(1.4);
+}
+
+.placeholder__blog2 {
+    width: 32.5%;
+    background-color: var(--col6);
+    /* border-radius: 3px; */
+}

@@ -1,0 +1,46 @@
+.Carousel {
+    position: relative;
+}
+
+.Carousel, .CarouselItem {
+    height: 100%;
+    width: 100%;
+    color: inherit;
+}
+
+.CarouselItem {
+    padding: 1.5rem;
+}
+
+.CarouselTitleBox {
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.CarouselControlBox {
+    padding: 0.50rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CarouselControlButtons {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.CarouselControlButtons button {
+    all: unset;
+    cursor: pointer;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50px;
+    border: 1px solid var(--blackText);
+    transition: all 500ms ease;
+}
+
+.buttonFill {
+    background-color: var(--blackText) !important;
+}

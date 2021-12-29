@@ -1,0 +1,18 @@
+.SecondSection {
+    height: 90vh;
+    width: 100vw;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.SecondSection .soundcloud__placeholder {
+    width: 40%;
+}
+
+.SecondSection .garner__placeholder {
+    width: 60%;
+    background-color: var(--garner);
+}
+

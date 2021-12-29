@@ -1,0 +1,34 @@
+/* Brand Carousel Items */
+
+.BrandCarouselItem1, .BrandCarouselItem2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.BrandCarouselItem1 h2 {
+    font-size: 4rem;
+    /* font-style: italic; */
+    text-transform: none;
+    -webkit-text-fill-color: transparent;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--col2);
+    text-align: right;
+    max-width: 100%;
+
+}
+
+
+.BrandCarouselItem2 h2 {
+    font-size: 4rem;
+    /* font-style: italic; */
+    text-transform: none;
+    -webkit-text-fill-color: transparent;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--col2);
+    text-align: right;
+
+}
