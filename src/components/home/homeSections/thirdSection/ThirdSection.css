@@ -17,3 +17,28 @@
 .ThirdSection .third__placeholder {
     width: 33%;
 }
+
+@media only screen and (max-width: 768px) {
+    .ThirdSection {
+        height: unset;
+        width: 100vw;
+        padding: 3rem 1rem 1rem 1rem;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .ThirdSection .first__placeholder {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .ThirdSection .second__placeholder {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .ThirdSection .third__placeholder {
+        width: 100%;
+        height: 90vh;
+    }
+}

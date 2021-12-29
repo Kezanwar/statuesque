@@ -17,7 +17,7 @@
     font-size: 0.9rem;
     letter-spacing: 3px;
     text-transform: uppercase;
-    
+
 }
 
 .CarouselControlBox {
@@ -45,4 +45,19 @@
 
 .buttonFill {
     background-color: var(--blackText) !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .CarouselControlButtons button {
+        width: 0.8rem;
+        height: 0.8rem;
+
+    }
+
+    .CarouselTitleBox {
+        font-size: 1rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+
+    }
 }
