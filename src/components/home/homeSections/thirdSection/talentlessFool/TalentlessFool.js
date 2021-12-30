@@ -12,7 +12,7 @@ const talentlessFool = {
 
 const controlBoxWithTitle = <CarouselControlBox>
     <a rel='noreferrer' target={'_blank'} href={talentlessFool.instagram} >
-        <CarouselTitleBox>{talentlessFool.name}</CarouselTitleBox>
+        <CarouselTitleBox social={'instagram'} >{talentlessFool.name}</CarouselTitleBox>
     </a>
 </CarouselControlBox>
 

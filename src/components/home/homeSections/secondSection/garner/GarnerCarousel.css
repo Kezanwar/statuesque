@@ -27,7 +27,7 @@
 }
 
 .GarnerCarouselItem1 .garner-description {
-    font-size: 1.4rem;
+    font-size: 1.48rem;
     font-weight: 300;
     text-transform: none;
     -webkit-text-fill-color: var(--blackText);
@@ -49,6 +49,7 @@
     .GarnerCarouselItem1 {
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .GarnerCarouselItem1 h2 {

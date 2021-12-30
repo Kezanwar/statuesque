@@ -11,12 +11,12 @@ import CarouselControlButtons from '../../../../UI/Carousel/CarouselControlButto
 const authorArray = [
     {
         name: 'Portugese Gravity',
-        unsplashURL: 'https://unsplash.com/photos/kCqwMM2DDnY',
+        instagram: 'https://www.instagram.com/portuguesegravity/?hl=en',
         localImage: portugeseGravityImg
     },
     {
         name: 'Annie Spratt',
-        unsplashURL: 'https://unsplash.com/photos/bf4Ocun5JnM',
+        instagram: 'hhttps://www.instagram.com/anniespratt/?hl=en',
         localImage: annieSprattImg
     }
 ]
@@ -24,7 +24,7 @@ const authorArray = [
 
 function UnsplashCarouselItem1() {
     return (
-        <a href={authorArray[0].unsplashURL} rel='noreferrer' target={'_blank'}>
+        <a href={authorArray[0].instagram} rel='noreferrer' target={'_blank'}>
             <CarouselItem classes={'UnsplashCarouselItem1 fade'} />
         </a>
     )
@@ -32,7 +32,7 @@ function UnsplashCarouselItem1() {
 
 function UnsplashCarouselItem2() {
     return (
-        <a href={authorArray[1].unsplashURL} rel='noreferrer' target={'_blank'}>
+        <a href={authorArray[1].instagram} rel='noreferrer' target={'_blank'}>
             <CarouselItem classes={'UnsplashCarouselItem2 fade'} />
         </a>
     )
@@ -54,7 +54,7 @@ function UnsplashCarousel() {
             {carouselArray[carouselCount]}
 
             <CarouselControlBox>
-                <a rel='noreferrer' target={'_blank'} href={authorArray[carouselCount].unsplashURL}><CarouselTitleBox > {authorArray[carouselCount].name}</CarouselTitleBox></a>
+                <a rel='noreferrer' target={'_blank'} href={authorArray[carouselCount].instagram}><CarouselTitleBox social={'instagram'} >{authorArray[carouselCount].name}</CarouselTitleBox></a>
                 <CarouselControlButtons>
                     <button className={carouselCount == 0 ? 'buttonFill' : ''} key={'unsplashCarouselBtn1'} onClick={carouselControlHandler} value={'0'}></button>
                     <button className={carouselCount == 1 ? 'buttonFill' : ''} key={'unsplashCarouselBtn2'} onClick={carouselControlHandler} value={'1'} ></button>

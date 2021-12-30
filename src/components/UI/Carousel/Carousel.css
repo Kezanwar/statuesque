@@ -14,7 +14,7 @@
 }
 
 .CarouselTitleBox {
-    font-size: 0.9rem;
+    font-size: 1rem;
     letter-spacing: 3px;
     text-transform: uppercase;
 
@@ -36,9 +36,9 @@
 .CarouselControlButtons button {
     all: unset;
     cursor: pointer;
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50px;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-radius: 100%;
     border: 1px solid var(--blackText);
     transition: all 500ms ease;
 }
@@ -46,6 +46,11 @@
 .buttonFill {
     background-color: var(--blackText) !important;
 }
+
+.CarouselTitleBox i {
+    margin-right: 0.2rem;
+}
+
 
 @media only screen and (max-width: 768px) {
     .CarouselControlButtons button {

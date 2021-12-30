@@ -28,6 +28,10 @@
     gap: 1rem;
 }
 
+.Header__logo-box h1 {
+    font-size: 2.5rem;
+}
+
 
 .Header__link-box {
     display: flex;
@@ -36,9 +40,12 @@
     position: relative;
 }
 
+.Header__link-box p {
+    font-size: 1rem;
+}
+
 
 .Header__link-box a {
-    font-size: 1.2rem;
     border: solid 1px black;
     padding: 0.25rem 0.5rem;
     border-radius: 7px;
@@ -74,7 +81,7 @@
 .Header__kez {
     text-transform: lowercase;
     /* letter-spacing: 2px; */
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 300;
     /* width: 20%; */
     text-align: right;
@@ -115,12 +122,21 @@
 
 @media only screen and (max-width: 768px) {
     .Header {
-        padding: 1rem 1rem 1rem 1rem;
+        padding: 1.5rem 1rem 1rem 1rem;
+        gap: 2rem;
     }
 
     .Header::after {
         width: calc(100% - 2rem);
         bottom: -1.5rem;
+    }
+
+    .Header__logo-box h1 {
+        font-size: 3rem;
+    }
+
+    .Header__kez {
+        display: none;
     }
 
 }

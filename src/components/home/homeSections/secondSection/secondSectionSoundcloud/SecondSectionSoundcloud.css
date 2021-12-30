@@ -7,10 +7,10 @@
 }
 
 .SecondSectionSoundcloud .CarouselTitleBox {
-    display: inline !important;
+    /* display: inline !important; */
     /* text-transform: lowercase; */
     letter-spacing: 2px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 400;
     /* border: solid 1px black;
     padding: 0.25rem 0.5rem;
@@ -21,7 +21,7 @@
 .SecondSectionSoundcloud .CarouselTitleBox span {
     text-transform: lowercase;
     letter-spacing: 0px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 300;
     /* border: solid 1px black;
     padding: 0.25rem 0.5rem;

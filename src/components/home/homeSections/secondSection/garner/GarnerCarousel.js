@@ -81,7 +81,7 @@ function GarnerCarousel() {
             {carouselArray[carouselCount]}
 
             <CarouselControlBox>
-                <CarouselTitleBox >Garner</CarouselTitleBox>
+                <CarouselTitleBox social={'instagram'} >Garner</CarouselTitleBox>
                 <CarouselControlButtons>
                     <button className={carouselCount == 0 ? 'buttonFill' : ''} key={'brandCarouselBtn1'} onClick={carouselControlHandler} value={'0'}></button>
                     <button className={carouselCount == 1 ? 'buttonFill' : ''} key={'brandCarouselBtn2'} onClick={carouselControlHandler} value={'1'} ></button>
