@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import './BrandCarousel.css'
 import Carousel from '../../../../UI/Carousel/Carousel'
 import CarouselItem from '../../../../UI/Carousel/CarouselItem'
@@ -15,7 +15,6 @@ function BrandCarouselItem1() {
     )
 }
 
-
 function BrandCarouselItem2() {
     return (
         < CarouselItem classes={'BrandCarouselItem1 fadeDown'} >
@@ -25,7 +24,6 @@ function BrandCarouselItem2() {
         </CarouselItem >
     )
 }
-
 
 function BrandCarouselItem3() {
     return (
@@ -46,23 +44,16 @@ function BrandCarousel() {
 
     useEffect(() => {
         const brandInterval = setInterval(() => {
-
             if (carouselCount === 2) {
                 setCarouselCount(0);
             }
-
             else {
                 setCarouselCount(prev => prev + 1);
             }
-
-            console.log(carouselCount)
-
         }, 5000)
-
         return (() => {
             clearInterval(brandInterval);
         })
-
     }, [carouselCount])
 
     const carouselArray = [<BrandCarouselItem1 />, <BrandCarouselItem2 />, <BrandCarouselItem3 />]

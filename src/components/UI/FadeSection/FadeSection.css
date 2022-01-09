@@ -1,7 +1,7 @@
 .fade-in-section {
     opacity: 0;
     transform: translateY(40px);
-    transition: opacity 400ms ease-out, transform 600ms ease-out;
+    transition: opacity 400ms ease-out, transform 400ms ease-out;
     will-change: opacity, transform;
 }
 
@@ -10,9 +10,3 @@
     transform: none;
 }
 
-@media only screen and (max-width: 768px) {
-    .fade-in-section {
-        /* transform: translateY(20px); */
-
-    }
-}

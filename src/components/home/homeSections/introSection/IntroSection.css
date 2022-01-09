@@ -2,9 +2,10 @@
     height: 77.5vh;
     width: 100vw;
     padding: 2rem;
+    padding-top: 2.5rem;
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .placeholder__blog1 {
@@ -26,8 +27,8 @@
         display: flex;
         flex-direction: column-reverse;
         height: unset;
-        gap: 4rem;
-        padding: 4rem 1rem 1rem 1rem;
+        row-gap: 5rem;
+        padding: 4rem 1rem 1.5rem 1rem;
     }
 
     .placeholder__blog1, .placeholder__blog2 {

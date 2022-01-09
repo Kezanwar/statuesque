@@ -4,6 +4,7 @@
     padding: 2rem;
     display: flex;
     gap: 2rem;
+    padding-bottom: 4rem;
 }
 
 .ThirdSection .first__placeholder {
@@ -22,9 +23,9 @@
     .ThirdSection {
         height: unset;
         width: 100vw;
-        padding: 3rem 1rem 1rem 1rem;
+        padding: 4rem 1rem 1rem 1rem;
         flex-direction: column;
-        gap: 4rem;
+        gap: 5rem;
     }
 
     .ThirdSection .first__placeholder {

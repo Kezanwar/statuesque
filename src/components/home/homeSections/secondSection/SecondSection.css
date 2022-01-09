@@ -19,7 +19,7 @@
 @media only screen and (max-width: 768px) {
     .SecondSection {
         height: unset;
-        padding: 3rem 1rem 1rem 1rem;
+        padding: 3rem 1rem 1.5rem 1rem;
         flex-direction: column;
         gap: 3rem;
     }
